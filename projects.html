@@ -1,0 +1,99 @@
+<!--This is our contact us page, anytime if the user wants to contact the company appropriate information appears here
+with contact information.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+        
+
+        <title>Mology Games CoMM Homepage</title>
+    </head>
+
+    <body>
+
+        
+        <header>
+            <!--Logo goes here. -->
+            <a href="index.html"><img id="logo" src="assets/images/mologyTechLogoCompleteSmall.png" alt="logo"></a>
+          
+            <nav class = "topNav">
+                
+            </nav>
+            <nav class="topNav2">
+            
+            </nav>
+             <!--This specific button will not link to anyting in the first assignment since this is the initial schema of the site.-->
+          
+          </header>
+
+
+
+
+        <!--<%- include partials/header.ejs %>-->
+        <!--This is the initial descriptor for the site information for the homepage appears here.-->
+        <main>
+            <div class="mainContent">
+              <h1>Projects</h1>
+               <p>This page details segments some of the projects i'm working on:</p>
+
+            
+               <!--<div class="w3-container w3-center w3-animate-bottom"></div>-->
+
+               <h2>JpLearn</h2>
+
+
+
+               <p>This project is a discord bot I have been working on called JpLearn, it is a bot that generates random prhases for users
+                teaching them crucial grammar points in Japanese and links them to an appropriate website to educate themselves more on the
+                grammar points!
+               </p>
+
+               <h3>This bot is built off Node JavaScript, You can check the bot out in my github page.</p>
+
+                <button onclick="location.href= 'https://github.com/tMology/JpLearnP'" style="font-size:100px;background-color: black;color: white;">JpLearn <i class="fa fa-github"></i></button>
+                    
+            
+
+               <h3>Activity Diagram:</h3>
+
+                <p>The intent of the application was to teach people Japanese in a practical manner. This diagram
+                    helped in the development of this application allowing me to catagorize my requirements
+                    when creating this simple program.
+                </p>
+
+                <iframe 
+                src="assets/pdf/JpLearnActivityDiagram.pdf" width="60%" height="500px">
+                </iframe>
+
+              
+            </div>
+        </main>
+
+
+        <footer>
+            <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+            <ul>
+                <!--Bottom copyright and logo-->
+                <li><p id="copyRight">&copy; MologyTech</p></li>
+
+                
+                <a href="https://github.com/tMology" class="fa fa-github" style="font-size:35px;color:white"></a>
+                <a href="www.linkedin.com/in/mitchellhabovick" class="fa fa-linkedin-square" style="font-size:35px;color: #0A66C2"></a>
+                
+                <input type = "button" id="botBut" onclick="location.href='contact.html'" value = "Contact Me";
+                
+            </ul>
+            <input type = "button" id="botBut" onclick="location.href='about.html'" value = "About Me";
+            
+   
+          </footer>
+
+
+
+    <!--<%- include partials/footer.ejs %>-->
+    </body>
+</html>

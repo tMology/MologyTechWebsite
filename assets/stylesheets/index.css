@@ -1,0 +1,256 @@
+html{
+    background-color: #1d435c;
+}
+header{
+    background: black;
+
+}
+footer{
+    background: black;
+    list-style: none;
+}
+#copyRight{
+    color: aqua;
+    font-size: 20px;
+}
+.mainContent{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Open Sans', "Comic Sans MS";
+    padding:0%;
+    outline: 3px solid aqua;
+    background: #1d435c;
+}
+.mainContent ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+/*Top Navbar stylings*/
+.topNav{
+    overflow: hidden;
+    font-style: normal;
+    font-family: sans-serif;
+}
+/*Button Stylings*/
+#botBut{
+    background-color: black;
+    border: none;
+    color: cyan;
+    font-size: 17px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+#botBut2{
+  background-color: black;
+  border: none;
+  color: cyan;
+  font-size: 17px;
+  text-decoration: underline;
+}
+#botBut2:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+#botBut:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+#button1{
+    float: right;
+    background-color: black;
+    border: none;
+    color: cyan;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: auto 2px;
+    font-style: normal;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+#button2{
+    float: right;
+    background-color: black;
+    border: none;
+    color: cyan;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: auto 2px;
+    font-style: normal;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+#button2:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+#button3{
+    float: right;
+    background-color: black;
+    border: none;
+    color: cyan;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: auto 2px;
+    font-style: normal;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+#button3:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+
+#button4{
+    background-color: black;
+    border: none;
+    color: cyan;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-style: normal;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+#button4:hover{
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+#cat1{
+    color: green;
+}
+#cat2{
+    color: darkblue;
+}
+#cat3{
+    color: red;
+}
+#cat4{
+    color: navy;
+}
+#cat5{
+    color: teal;
+}
+#cat7{
+    color: steelblue;
+}
+
+
+
+
+
+/*append*/
+
+
+
+/* CSS */
+.projects {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #0cbff1 0, #000000 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(0, 0, 0, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.projects:focus {
+  box-shadow: #08a9e3 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.projects:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.projects:active {
+  box-shadow: #000000 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+/* CSS */
+.futureProjects {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #000000 0, #0cbff1 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(0, 0, 0, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 365px;
+    padding-right: 365px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .futureProjects:focus {
+    box-shadow: #08a9e3 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .futureProjects:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .futureProjects:active {
+    box-shadow: #000000 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+ 
+
+  

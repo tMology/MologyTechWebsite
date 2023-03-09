@@ -1,0 +1,130 @@
+<!--This is our contact us page, anytime if the user wants to contact the company appropriate information appears here
+with contact information.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        
+
+        
+
+        <title>Mology Games CoMM Homepage</title>
+    </head>
+
+    <body>
+
+        <header>
+            <!--Logo goes here. -->
+            <a href="index.html"><img id="logo" src="assets/images/mologyTechLogoCompleteSmall.png" alt="logo"></a>
+          
+            <nav class = "topNav">
+                
+            </nav>
+            <nav class="topNav2">
+            
+            </nav>
+             <!--This specific button will not link to anyting in the first assignment since this is the initial schema of the site.-->
+          
+          </header>
+
+
+
+
+
+
+
+
+       
+        <!--This is the initial descriptor for the site information for the homepage appears here.-->
+        <main>
+            <div class="mainContent">
+
+        <h1>About Myself</h1>
+          
+
+            <p>Hello! My name is Mitchell Habovick, and I am a computer Science Major with a concentration in Software Enineering
+            along with a Major in the Japanese language.
+            </p>
+            <p>From a young age I took an interest in videogames, this evolved my interest into Technology.
+            It is quite well known some of the most famous videogames were made in Japan. This would peak my
+            interests into computers and all things tech related. Eventually I would have the pleasure of living 
+            in the Country studying at a university and Learning Japanese!</p>
+            
+            <div class ="imageslide">
+            <button class="w3-button w3-black w3-display-left;" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            <img class="mySlides" src="assets/images/agashiyama2.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Dragonstatue1.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Dragonstatue2.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Kinkakuji.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/sakura.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/saporo.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Snowtrain.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Spongebob.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Torigate1.JPG" style="width:100%">
+            <img class="mySlides" src="assets/images/Torigate2.JPG" style="width:100%">
+            <button class="w3-button w3-black w3-display-left;" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+
+            
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+                </script>
+
+
+
+            </div>
+        </main>
+
+        
+
+
+
+        <footer>
+            <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css">
+            <ul>
+                <!--Bottom copyright and logo-->
+                <li><p id="copyRight">&copy; MologyTech</p></li>
+
+                
+                <a href="https://github.com/tMology" class="fa fa-github" style="font-size:35px;color:white"></a>
+                <a href="www.linkedin.com/in/mitchellhabovick" class="fa fa-linkedin-square" style="font-size:35px;color: #0A66C2"></a>
+                
+                <input type = "button" id="botBut" onclick="location.href='contact.html'" value = "Contact Me";
+                
+            </ul>
+            <input type = "button" id="botBut" onclick="location.href='about.html'" value = "About Me";
+            
+   
+          </footer>
+
+
+
+
+
+    </body>
+</html>
